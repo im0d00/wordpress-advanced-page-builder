@@ -1,0 +1,6 @@
+node_modules/
+vendor/
+assets/editor/index.js
+assets/editor/index.js.LICENSE.txt
+assets/editor/index.js.map
+.phpunit.result.cache

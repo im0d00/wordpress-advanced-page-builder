@@ -1,0 +1,15 @@
+{
+  "name": "nexusbuilder/plugin",
+  "type": "wordpress-plugin",
+  "autoload": {
+    "psr-4": {
+      "NexusBuilder\\": "includes/"
+    }
+  },
+  "require": {
+    "php": ">=7.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.6.33"
+  }
+}

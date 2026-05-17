@@ -1,0 +1,9 @@
+.nb-editor { font-family: Arial, sans-serif; }
+.nb-toolbar { display: flex; gap: 8px; padding: 8px; border-bottom: 1px solid #ddd; }
+.nb-layout { display: grid; grid-template-columns: 240px 1fr 280px; min-height: 70vh; }
+.nb-left-panel, .nb-right-panel { border-right: 1px solid #eee; padding: 12px; }
+.nb-right-panel { border-right: 0; border-left: 1px solid #eee; }
+.nb-canvas { padding: 16px; background: #fafafa; }
+.nb-grid { border: 1px dashed #bbb; min-height: 360px; display: grid; place-items: center; }
+.nb-ai-panel { border-top: 1px solid #ddd; padding: 12px; }
+.nb-ai-panel textarea { width: 100%; min-height: 80px; }
